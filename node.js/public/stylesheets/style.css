@@ -8,5 +8,11 @@ a {
 }
 
 .card {
-  width: 150px; height: 150px; padding: 0.5em;
+  width: 150px;
+  height: 150px;
+  padding: 0.5em;
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  background-color: #ffffff;
 }
