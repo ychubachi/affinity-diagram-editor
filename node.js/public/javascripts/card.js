@@ -10,11 +10,15 @@ var draggableEvents = {
 };
 
 $(function() {
-  $('.card').draggable(draggableEvents);
+  cardInteractions();
 });
 
 var createCard = function() {
   console.log('onclick');
   $('#cards').append(cardHtml);
-  $('.card').draggable(draggableEvents);
+  cardInteractions();
 };
+
+var cardInteractions = function() {
+  $('.card').draggable(draggableEvents).resizable();
+}
