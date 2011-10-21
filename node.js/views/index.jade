@@ -1,0 +1,29 @@
+script(type='text/javascript')
+ $(function() {
+  $('.card').draggable({
+   start: function(event, ui) {
+ //    $('#status').append('<p>started</p>')
+   },
+   stop: function(event, ui) {
+ //    $('#status').append('<p>stopped</p>')
+   }
+  });
+ });
+ var createCard = function() {
+  console.log('onclick');
+ //  $('#cards').append("<div class="card ui-draggable" style="position: relative; "><p>CARD</p></div>");
+  $('#cards').append('<div class="card"><p>CARD</p></div>');
+  $('.card').draggable();
+ };
+
+div
+ input(type='text');
+ input(type='submit', value='Ceate', onclick='createCard()');
+hr
+
+div#cards
+ div.card
+  p CARD1
+ div.card
+  p CARD2
+//p#status status
