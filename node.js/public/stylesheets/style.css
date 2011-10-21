@@ -17,10 +17,3 @@ a {
   background-color: #ffffff;
 }
 
-#cards .ui-selecting {
-    background: #FECA40;
-}
-#cards .ui-selected {
-    background: #F39814; color: white;
-}
-

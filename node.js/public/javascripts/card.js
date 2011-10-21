@@ -11,7 +11,6 @@ var draggableEvents = {
 
 $(function() {
   cardInteractions();
-  $('#cards').selectable();
 });
 
 var createCard = function() {
@@ -21,7 +20,5 @@ var createCard = function() {
 };
 
 var cardInteractions = function() {
-//  $('.card').draggable(draggableEvents).resizable().selectable();
-//  $('.card').draggable(draggableEvents).selectable();
-//  $('.card');
+  $('.card').draggable(draggableEvents).resizable();
 };
