@@ -1,5 +1,5 @@
 var cardHtml_a = '<div id="';
-var cardHtml_b = '" class="card"><textarea>new card</textarea></div>';
+var cardHtml_b = '" class="card" align="center"><textarea class="card_text">new card</textarea></div>';
 
 var draggableEvents = {
   start: function(event, ui) {

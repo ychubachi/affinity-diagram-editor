@@ -8,12 +8,16 @@ a {
 }
 
 .card {
-  width: 150px;
-  height: 150px;
-  padding: 0.5em;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
   border-width: 2px;
   border-color: #000000;
   border-style: solid;
   background-color: #ffffff;
 }
 
+.card_text {
+  width: 95%;
+  height: 95%;
+}
